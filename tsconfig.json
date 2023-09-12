@@ -38,8 +38,6 @@
   ],
   "exclude": [
     "node_modules",
-    "**/*.config.js",
-    "**/*.config.ts",
     "**/*.build.js",
     "jest.config.js",
     "jest.setup.ts"
