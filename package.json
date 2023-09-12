@@ -48,19 +48,13 @@
   "dependencies": {
     "@tanstack/react-query": "^4.33.0",
     "autoprefixer": "^10.4.15",
-    "eslint-plugin-tailwindcss": "^3.13.0",
     "next": "^13.4.7",
-    "postcss": "^8.4.29",
-    "postcss-loader": "^7.3.3",
-    "prettier-plugin-tailwindcss": "^0.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.3",
     "zod": "^3.22.2",
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.11",
     "webpack": "^5.88.2",
     "@playwright/test": "^1.37.1",
     "@tanstack/react-query-devtools": "^4.33.0",
