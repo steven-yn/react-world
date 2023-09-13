@@ -7,8 +7,11 @@ const HomePageMain = styled('main', {
   height: '100vh',
   width: '100vw',
   backgroundColor: 'lightgray',
+  '&.hover': {
+    backgroundColor: 'red',
+  },
 });
 
 export default function Home() {
-  return <HomePageMain>스티치 테스트</HomePageMain>;
+  return <HomePageMain>메인홈</HomePageMain>;
 }
