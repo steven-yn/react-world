@@ -1,5 +1,7 @@
 import { styled } from '@stitches/react';
 
+import FetchUser from '@/api/FetchUser';
+
 const HomePageMain = styled('main', {
   display: 'flex',
   justifyContent: 'center',
@@ -12,6 +14,12 @@ const HomePageMain = styled('main', {
   },
 });
 
-export default function Home() {
+export default async function Home() {
+  const res = await FetchUser.userInfo({
+    cache: 'no-store',
+  });
+
+  console.log(res, 'res');
+
   return <HomePageMain>메인홈</HomePageMain>;
 }
